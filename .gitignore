@@ -1,0 +1,50 @@
+# Maven / Gradle
+target/
+build/
+
+# Logs
+*.log
+logs/
+*.out
+
+# IDE files
+/.idea/
+/.vscode/
+/*.iml
+*.ipr
+*.iws
+/.classpath
+/.project
+/.settings/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Spring Boot properties and YAML files (optional, adjust as needed)
+**/application.yml
+**/application.properties
+
+# Maven Wrapper
+!.mvn/wrapper/maven-wrapper.jar
+
+# Others
+*.class
+*.jar
+*.war
+*.ear
+
+# Ignore node_modules if you have frontend microservices
+node_modules/
+
+# Ignore environment variables files
+*.env
+
+# Ignore sensitive keys or config files, adjust if you use any other file types
+*.key
+*.pem
+*.p12
+
+# Ignore generated reports or coverage
+coverage/
+reports/
